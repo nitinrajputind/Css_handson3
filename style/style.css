@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+/* head Part Style  */
+
+.top-box{
+    width: 500px;
+    height: 200px;
+    background-color: #ffff;
+    border: 10px solid red;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(114, 6, 114);
+    position: relative;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+    margin-bottom: 18px;
+    text-shadow: 2px 2px 2px violet;
+}
+.text-Content{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(120, 6, 120);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-style: italic;
+}
+hr{
+    margin-bottom: 5px;
+    color: #ffff;
+    height: 3px;
+    background-color: #ffff; 
+}
+
+/* main-container Style  */
+
+
+.main-container{
+    border: 10px solid green;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.child-box{
+    border: 5px solid red;
+    width: 330px;
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    background-color: #ffff;
+    font-weight: 800;
+    text-shadow: 3px 3px 5px violet;
+}
+.child1{
+    float: left;
+}
+.child2{
+    float: right;
+    margin-right: 90px;
+}
+.child2 img{
+    width: 200px;
+    height: 150px;
+    margin-top: 40px;
+}
+.child3{
+    float: left;
+    clear: left;
+    position: absolute;
+    bottom: 0;
+}
+.child3 p{
+    margin-bottom: 20px;
+    text-align: start;
+    
+}
+
+.child4{
+    float: right;
+    clear: right;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    right: 0;
+    margin-right: 90px;
+}
+form label{
+    font-size: 20px;
+}
+button{
+    background-color: red;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+/* Green Contanier  */
+
+.container{
+    position: relative;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%);
+    background-color: green;
+    border: 10px solid rgb(90, 4, 90);
+    width: 900px;
+    height: 750px;
+}
+.caption{
+    text-align: center;
+    padding: 30px;
+}
+
+.Child{
+    background-color: rgb(237, 237, 115);
+    border: 5px solid grey;
+    width: 420px;
+    height: 350px;
+    text-align: center;
+    text-justify: auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+.Child h2{
+    padding: 20px;
+    font-size: 50px;
+}
+.child-left{
+    float: left;
+    border: 10px sloid rgb(211, 13, 13);
+    margin-right: 10px;
+}
+.child-right{
+    float: right;
+}
+.child-bottom{
+    clear: both;
+   width: 900px;
+   margin-top: 370px;
+   height: 260px;
+}
+.fixed-contanier{
+    background-color: greenyellow;
+    border-radius: 20px;
+    border: 10px solid red;
+    width: 600px;
+    height: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 500px;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    padding: 30px;
+    color: red;
+    box-shadow: 10px 10px rgb(114, 6, 114);
+    
+}
+
